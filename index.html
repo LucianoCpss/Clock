@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reloj</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="imas/reloj.png">
+	<link rel="stylesheet" type="text/css" href="diseño.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header"><h1>Virtual Clock</h1></div>
+	</header>
+	<content>
+		<div class="clock"> 
+
+			<div class="screen">
+				<div class="time modeContainer">
+					<p class="hours">00</p> <p>:</p> <p class="minutes">00</p> <p>:</p> <p class="seconds">00</p>
+				</div> 
+
+				<div class="chrono modeContainer">
+					<p class="hours">00</p> <p>:</p> <p class="minutes">00</p> <p>:</p> <p class="seconds">00</p> <p>:</p> <p class="milliseconds">00</p>
+				</div>
+
+				<div class="timer modeContainer">
+					<div class="plus"><p id="firstPlus">+</p></div>
+					<div class="plus"><p id="secondPlus">+</p></div>
+					<div class="plus"><p id="thirdPlus">+</p></div>
+					<div class="plus"><p id="fourthPlus">+</p></div>
+					<div class="plus"><p id="fifthPlus">+</p></div>
+					<div class="plus"><p id="sixthPlus">+</p></div>
+					<div class="plus"><p id="seventhPlus">+</p></div>
+					<div class="plus"><p id="eighthPlus">+</p></div>
+
+					<div class="timerClockContainer"><p class="timerClock">00:00:00:00</p></div>
+					
+					<div class="minus"><p id="firstMinus">-</p></div>
+					<div class="minus"><p id="secondMinus">-</p></div>
+					<div class="minus"><p id="thirdMinus">-</p></div>
+					<div class="minus"><p id="fourthMinus">-</p></div>
+					<div class="minus"><p id="fifthMinus">-</p></div>
+					<div class="minus"><p id="sixthMinus">-</p></div>
+					<div class="minus"><p id="seventhMinus">-</p></div>
+					<div class="minus"><p id="eighthMinus">-</p></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="options">
+
+			<div class="chronoOptions">
+				<div class="optionButton" id="chronoStartButton"><p>Start</p></div>
+				<div class="optionButton" id="chronoPauseButton"><p>Pause</p></div>
+				<div class="optionButton" id="chronoResetButton"><p>Reset</p></div>
+			</div>
+
+
+			<div class="timerOptions">
+				<div class="optionButton" id="timerStartButton"><p>Start</p></div>
+				<div class="optionButton" id="timerPauseButton"><p>Pause</p></div>
+				<div class="optionButton" id="timerResetButton"><p>Reset</p></div>
+			</div>
+		</div>
+
+		<div class="controller">
+			<div class="arrow" id="leftArrow"> <p><</p> </div>
+			<div class="mode">
+				<div class="modeTitle">
+					<div class="clockTitle title"><p>Clock</p></div>
+					<div class="chronometerTitle title"><p>Chrono</p></div>
+					<div class="timerTitle title"><p>Timer</p></div>
+				</div>
+			</div>
+			<div class="arrow" id="rightArrow"> <p>></p> </div>
+		</div>
+
+	</content>
+	<footer>
+		
+	</footer>
+	<script src="java.js"></script>
+</body>
+</html>
